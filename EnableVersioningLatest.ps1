@@ -77,6 +77,3 @@ Get-SPOWeb $SiteUrl
 catch {
     write-host "Error: $($_.Exception.Message)" -foregroundcolor Red
 }
-
-
-#Read more: http://www.sharepointdiary.com/2015/08/sharepoint-online-get-all-lists-using-powershell.html#ixzz5NcSOO1uJ
